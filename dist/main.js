@@ -136,7 +136,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n\n\n//# sourceURL=webpack://todolist/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* eslint-disable linebreak-style */\r\n\r\n\r\nconst score =[\r\n  { user: 'John', score: 70 },\r\n  { user: 'Frank', score: 80 },\r\n  { user: 'Mike', score: 50 },\r\n  { user: 'James', score: 46 },\r\n  { user: 'Ama', score: 77 },\r\n  { user: 'Cecilia', score: 67 },\r\n];\r\n\r\nconst listTag = document.querySelector('ul');\r\nconsole.log(listTag)\n\n//# sourceURL=webpack://todolist/./src/index.js?");
 
 /***/ }),
 
