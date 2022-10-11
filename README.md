@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# to-do-list
+# Leaderboard App
 
 > A simple website that contains a editable list of tasks
 
@@ -27,8 +27,8 @@ To get a local copy up and running follow these simple example steps.
   - To clone and run this project on your local machine please follow the commands (Windows Command Line):
   ```
   cd PATH 
-  git clone _https://github.com/ouasamine/todo-list.git _
-  cd _to-do-list_
+  git clone _https://github.com/ouasamine/leader-board.git _
+  cd _learder-board_
   _index.html_ 
   ```
   _(instead of PATH put yor preferred directory where the repository files will download)_
