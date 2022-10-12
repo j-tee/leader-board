@@ -2,3 +2,4 @@
 *.ttf binary
 *.woff binary
 *.woff2 binary
+*.js text eol=lf

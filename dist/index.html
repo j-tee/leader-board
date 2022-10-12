@@ -1,53 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a48c73c55d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link rel="stylesheet" href="./styles.css" /> -->
+    <title>Leaderboard</title>
+  <script defer src="main.js"></script></head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://kit.fontawesome.com/a48c73c55d.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./styles.css">
-  <title>Leaderboard</title>
-<script defer src="main.js"></script></head>
-
-<body>
-  <header>
-    <h1>Leaderboard</h1>
-  </header>
-  <main>
-    <section class="score-board">
-      <div class="display-score">
-        <div class="recent-scores"><span>Recent Scores</span>
-          <button class="btn btn-outline-primary">
-            Refresh  <i class="fa fa-refresh" aria-hidden="true"></i>            
-          </button>
-        </div>
-        <div class="score-details">
-          <ul>
-            <Li><span>Name:</span><span>100</span></Li>
-            <Li><span>Name:</span><span>100</span></Li>
-            <Li><span>Name:</span><span>100</span></Li>
-            <Li><span>Name:</span><span>100</span></Li>
-            <Li><span>Name:</span><span>100</span></Li>
-            <Li><span>Name:</span><span>100</span></Li>
-          </ul>
-        </div>
-      </div>
-      <div class="add-score">
-        <h4>Add Scores Here</h4>
-        <form id="frm-score" name="frm-score">
-          <div id="div-1" class="input-group mb-3 input-group-sm">
-            <input class="form-control input-sm" name="user-name" id="user-name" type="text" placeholder="Your Name" />
+  <body>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+    <main>
+      <section class="score-board">
+        <div class="display-score">
+          <div class="recent-scores">
+            <span>Recent Scores</span>
+            <button id="btn-get" class="btn btn-outline-primary">
+              Refresh <i class="fa fa-refresh" aria-hidden="true"></i>
+            </button>
           </div>
-          <div class="input-group mb-3 input-group-sm">
-            <input class="form-control input-sm" name="user-score" id="user-score" type="number"
-              placeholder="Your Score" />
+          <div class="score-details">
+            <ul>
+            </ul>
           </div>
-          <button class="btn btn-primary">Submit</button>
-      </div>
-      </form>
-    </section>
-  </main>
-</body>
-
+        </div>
+        <div class="add-score">
+          <h4>Add Scores Here</h4>
+          <form id="frm-score" name="frmScore">
+            <div id="div-1" class="input-group mb-3 input-group-sm">
+              <input
+                class="form-control input-sm"
+                name="user"
+                id="user-name"
+                type="text"
+                placeholder="Your Name"
+              />
+            </div>
+            <div class="input-group mb-3 input-group-sm">
+              <input
+                class="form-control input-sm"
+                name="score"
+                id="user-score"
+                type="number"
+                placeholder="Your Score"
+              />
+            </div>
+            <button id="btn-save" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
