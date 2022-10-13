@@ -1,8 +1,17 @@
 @import "/node_modules/bootstrap/dist/css/bootstrap.css";
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
 
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: cursive;
+  color: #ccc;
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 1) 25%, transparent 25%), linear-gradient(225deg, rgba(0, 0, 0, 1) 25%, transparent 25%), linear-gradient(45deg, rgba(0, 0, 0, 1) 25%, transparent 25%), linear-gradient(315deg, rgba(0, 0, 0, 1) 25%, rgba(1, 1, 13, 0.95) 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 250px 250px;
 }
 
 header {
@@ -17,6 +26,18 @@ header {
   font-weight: 500;
   color: #045427;
   text-align: center;
+  border-radius: 4px;
+  border-color: #045427;
+  border: 4px solid;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 1.5rem 0.5rem 1.5rem 0.5rem;
+  backdrop-filter: blur(50px);
+  background: #0e0e19;
+  background: transparent;
 }
 
 ul li {
@@ -25,6 +46,19 @@ ul li {
   padding: 2px 10px 2px 10px;
   font-weight: 400;
   font-size: 30px;
+  border-bottom: 2px solid black;
+  perspective: 100px;
+}
+
+h1 {
+  color: #0d6efd;
+  font-weight: 700;
+  font-size: 76px;
+  font-family: fantasy;
+}
+
+.add-score h4 {
+  color: #0d6efd;
 }
 
 .score-board {
@@ -43,12 +77,13 @@ ul li {
 .score-details {
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
+  border: 2px solid #0d367c;
   border-radius: 10px;
+  color: #0d6efd;
 }
 
 li:nth-child(even) {
-  background: #ccc;
+  background: #0e0e19;
 }
 
 .add-score {
@@ -67,6 +102,7 @@ li:nth-child(even) {
 .recent-scores span {
   font-weight: 500;
   font-size: 1.5rem;
+  color: #0d6efd;
 }
 
 form {
@@ -76,10 +112,4 @@ form {
 
 main {
   margin-top: 10rem;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 1.5rem 0.5rem 1.5rem 0.5rem;
 }

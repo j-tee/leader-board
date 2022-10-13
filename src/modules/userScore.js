@@ -2,7 +2,7 @@
 class UserScore {
   constructor(user, score) {
     this.user = user;
-    this.score = score;
+    this.score = parseInt(score.substring(0, 4), 10);
   }
 }
 export default UserScore;
