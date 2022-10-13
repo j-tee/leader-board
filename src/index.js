@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 /* eslint-disable linebreak-style */
 /* eslint-disable no-use-before-define */
 /* eslint-disable linebreak-style */
@@ -7,15 +8,17 @@ import UserScore from './modules/userScore.js';
 import './styles.css';
 
 /* eslint-disable linebreak-style */
-const apiKey = 'Kg54IOPf8iqiR95SaXbq';
+const apiKey = 'I5zwBYR8zVJFX6ZO7AFp';
 const baseUrl = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${apiKey}/scores/`;
 
 const btnSave = document.getElementById('btn-save');
 const btnGet = document.getElementById('btn-get');
 
 btnGet.addEventListener('click', (e) => {
+  // location.reload();
   e.preventDefault();
   const listTag = document.querySelector('ul');
+  listTag.innerHTML = '';
   const userScores = getUserScores(baseUrl);
   userScores.then((data) => {
     [...data].forEach((score) => {
