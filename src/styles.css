@@ -5,13 +5,13 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: cursive;
   color: #ccc;
   background-image: linear-gradient(135deg, rgba(0, 0, 0, 1) 25%, transparent 25%), linear-gradient(225deg, rgba(0, 0, 0, 1) 25%, transparent 25%), linear-gradient(45deg, rgba(0, 0, 0, 1) 25%, transparent 25%), linear-gradient(315deg, rgba(0, 0, 0, 1) 25%, rgba(1, 1, 13, 0.95) 25%);
   background-position: 10px 0, 10px 0, 0 0, 0 0;
   background-size: 250px 250px;
-  
 }
 
 header {
@@ -37,7 +37,7 @@ ul {
   margin: 1.5rem 0.5rem 1.5rem 0.5rem;
   backdrop-filter: blur(50px);
   background: #0e0e19;
-  background: transparent
+  background: transparent;
 }
 
 ul li {
@@ -51,14 +51,10 @@ ul li {
 }
 
 h1 {
-  color: #0d6efd;;
+  color: #0d6efd;
   font-weight: 700;
   font-size: 76px;
-  font-family: fantasy
-}
-
-.recent-scores span {
-  color: #0d6efd;
+  font-family: fantasy;
 }
 
 .add-score h4 {
@@ -84,7 +80,6 @@ h1 {
   border: 2px solid #0d367c;
   border-radius: 10px;
   color: #0d6efd;
-  font-family: emoji;
 }
 
 li:nth-child(even) {
@@ -107,6 +102,7 @@ li:nth-child(even) {
 .recent-scores span {
   font-weight: 500;
   font-size: 1.5rem;
+  color: #0d6efd;
 }
 
 form {
@@ -117,4 +113,3 @@ form {
 main {
   margin-top: 10rem;
 }
-
